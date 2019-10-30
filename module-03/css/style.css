@@ -1,0 +1,127 @@
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Playfair Display", "Ubuntu", sans-serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.conteiner {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.page-header {
+    margin-bottom: 10px;
+}
+
+.header-nav {
+    width: 900px;
+    margin: auto;
+}
+
+.site-navigation {
+    font-size: 14px;
+    text-align: center;
+    list-style: none;
+}
+
+.site-navigation a {
+    line-height: 24px;
+    color: #626262;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    }
+
+.site-navigation li {
+    padding: 77px 20px;
+    display: inline-block;
+    margin-right: 30px;
+    }
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #68cbf8;
+}
+
+.lifestyle {
+    margin-bottom: 100px;
+}
+
+.lifestyle-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.lifestyle-about {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.lifestyle-list-item {
+    display: inline-block;
+    width: 420px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+
+.lifestyle-list-item:nth-child(2n) {
+    margin-right: 0px;
+}
+
+.lifestile-list-image {
+    width: 420px;
+    height: 280px;
+    margin-bottom: 30px;
+}
+
+.lifestyle-list h3 {
+    margin-bottom: 24px;
+    color: #b4ad9e;
+    font-family: "Ubuntu";
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 17px;
+
+}
+
+.lifestyle-list h2 {
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.lifestyle-list p {
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.load-more-button {
+    display: block;
+    padding: 24px 34px;
+    border: 1px solid #626262;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    background-color: white;
+}
+
