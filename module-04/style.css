@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -75,6 +80,10 @@ li {
   float: left;
 }
 
+.cards {
+  padding-top: 30px;
+}
+
 h2 {
   text-transform: uppercase;
   color: #515151;
@@ -96,20 +105,9 @@ h2::after {
   margin: 30px auto;
 }
 
-.products {
-  float: left;
-  width: 255px;
-  text-align: center;
-  background-color: #e9f0fd;
-  margin: 15px;
-  cursor: pointer;
-  overflow: hidden;
-}
-
 .img-product {
-  width: 255px;
-  height: 322px;
-  margin: 0;
+  width: 100%;
+  height: calc(322px - 40px);
   display: block;
 }
 
@@ -120,6 +118,8 @@ h2::after {
   font-family: "Roboto";
   text-transform: uppercase;
   overflow: hidden;
+  height: 40px;
+  line-height: 40px;
 
 }
 
@@ -137,28 +137,18 @@ h2::after {
   float: right;
   padding: 0 12px;
   background-color: #8c8c8c;
-  /* opacity: 0.44; */
+  text-align: center;
 }
-
-.products:nth-child(5) {
-  margin-right: 0px;
-}
-
-.wrp:hover {
-  background: #1abc9c;
-}
-
-.wrp:hover .product-title,
-.wrp:hover .product-price {
-  background: #1abc9c;
-}
-
 
 /* Section News */
 
 .section-news {
   margin: 0 auto;
   float: left;
+}
+
+.news-cards {
+  padding-top: 30px;
 }
 
 .news {
@@ -180,6 +170,7 @@ h4 {
   font-family: "Open Sans";
   font-weight: 400;
   line-height: 26px;
+  /* padding: 10px 0; */
 }
 
 h4::after {
@@ -199,6 +190,7 @@ h4::after {
   font-weight: 400;
   line-height: 26px;
   text-align: justify;
+  padding: 15px 0;
 }
 
 button {
@@ -213,4 +205,22 @@ button {
   color: #ffffff;
   border: none;
   cursor: pointer;
+}
+
+
+.card {
+  width: 255px;
+  float: left;
+  height: 322px;
+  margin: 15px;
+}
+
+
+.card:hover  .wrp {
+  background: #1abc9c;
+}
+
+
+.card:hover .product-price {
+  background: #7fd9c7;
 }
