@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container-fluid {
+  background-color: #e9f0fd;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 1600px;
+  margin-top: 15px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+  min-height: 600px;
+  position: relative;
+}
+
+/* Site navigation */
+
+.navigation {
+  position: relative;
+  width: 1170px;
+  height: 36px;
+  margin-bottom: 30px;
+  padding: 30px;
+  margin: auto;
+}
+
+.logo {
+  position: absolute;
+}
+
+.nav-menu {
+  list-style: none;
+  height: inherit;
+  font-size: 14px;
+  font-family: "Open Sans";
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0px;
+}
+
+.nav-menu-title {
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #0f0101;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px;
+  letter-spacing: -0.28;
+}
+
+.nav-menu a:hover,
+.nav-menu a:focus {
+  color: #1abc9c;
+}
+
+/* Slider */
+
+.slider {
+  width: 1600px;
+  height: 600px;
+  position: relative;
+}
+
+.slides {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slides-item {
+  position: relative;
+}
+
+.slides img {
+  object-fit: cover;
+  width: 100%;
+  min-height: 600px;
+}
+
+.slogan-first {
+  font-size: 55px;
+  font-weight: bold;
+  position: absolute;
+  width: 740px;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  color: #ffffff;
+  bottom: 50%;
+  left: 0;
+  transform: translateX(60%);
+  margin-bottom: 30px;
+}
+
+.slogan-second {
+  font-size: 24px;
+  position: absolute;
+  width: 740px;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  color: #ffffff;
+  bottom: 50%;
+  left: 0;
+  transform: translateX(60%);
+}
+
+.slider-ctrl {
+  border: none;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: #1abc9c;
+  position: absolute;
+  top: 50%;
+}
+
+.slider-ctrl-prev {
+  left: 0;
+  transform: translate(210%, -75%);
+}
+
+.slider-ctrl-next {
+  right: 0;
+  transform: translate(-210%, -75%);
+}
+
+/* Section collection */
+
+h2 {
+  text-transform: uppercase;
+  color: #515151;
+  font-family: "Roboto";
+  font-size: 48px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.96px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 160px;
+  height: 7px;
+  background-color: #1abc9c;
+  margin: 30px auto;
+}
+
+.img-product {
+  width: 100%;
+  height: calc(322px - 40px);
+  display: block;
+}
+
+.wrp {
+  background-color: #323232;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  overflow: hidden;
+  height: 40px;
+  line-height: 40px;
+}
+
+.product-title {
+  color: #ffffff;
+  font-weight: bold;
+  float: left;
+  padding-left: 14px;
+}
+
+.product-price {
+  width: 54px;
+  color: #ffffff;
+  font-weight: bold;
+  float: right;
+  padding: 0 12px;
+  background-color: #8c8c8c;
+  text-align: center;
+}
+
+.card1 {
+  left: 0;
+  top: 30%;
+  position: absolute;
+}
+
+.card2 {
+  left: 0;
+  top: 30%;
+  transform: translateX(120%);
+  position: absolute;
+}
+
+.card3 {
+  right: 0px;
+  top: 30%;
+  transform: translateX(-120%);
+  position: absolute;
+}
+
+.card4 {
+  right: 0px;
+  top: 30%;
+  position: absolute;
+}
+
+.card1:hover .wrp,
+.card2:hover .wrp,
+.card3:hover .wrp,
+.card4:hover .wrp {
+  background: #1abc9c;
+}
+
+.card1:hover .product-price,
+.card2:hover .product-price,
+.card3:hover .product-price,
+.card4:hover .product-price {
+  background: #7fd9c7;
+}
+
+/* overlay */
+
+/* .card1-overlay {
+  width: 255px;
+  height: 280px;
+  border: 10px solid #ffffff;
+}  */
+
+.card1:hover .card1-overlay {
+  background-color: #000000;
+  opacity: 0.55;
+}
+
+.overlay-icon-like {
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+}
+
+.overlay-img {
+  width: 25px;
+  height: 25px;
+}
+
+/* footer */
+
+.page-footer {
+  background-color: #323232;
+}
+
+.text-footer {
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: #fefefe;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.text-footer-title {
+  color: #46bfa9;
+}
