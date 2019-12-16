@@ -30,8 +30,8 @@ html {
 }
 
 .site-logo {
-  /* text-decoration: none;
-  text-transform: none; */
+  /* text-decoration: none; */
+  list-style: none;
   color: #95e1d3;
   font-size: 30px;
   font-family: "Montserrat";
