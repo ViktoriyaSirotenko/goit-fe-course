@@ -30,13 +30,7 @@ html {
 }
 
 .site-logo {
-  /* text-decoration: none; */
-  list-style: none;
-  color: #95e1d3;
-  font-size: 30px;
-  font-family: "Montserrat";
-  font-weight: bold;
-  letter-spacing: -1.2px;
+  text-decoration: none;
   transition: all 200ms linear;
 }
 
@@ -49,7 +43,6 @@ html {
 }
 
 .nav-menu-title {
-  text-decoration: none;
   font-size: 14px;
   font-family: "Montserrat";
   text-transform: uppercase;
@@ -94,6 +87,68 @@ html {
   margin: 30px auto;
 }
 
+/* Section Cart */
+
+.cart-services {
+  padding-left: 82px;
+  width: 300px;
+  position: relative;
+}
+
+.cart-services-alarm::before {
+  content: "";
+  width: 82px;
+  height: 82px;
+  background: url(image/ALARM.png) no-repeat center top;
+  position: absolute;
+  left: 0;
+}
+
+.cart-services-design::before {
+  content: "";
+  width: 82px;
+  height: 82px;
+  background: url(image/LINE_GRAPH.png) no-repeat center top;
+  position: absolute;
+  left: 0;
+}
+
+.cart-services-ok::before {
+  content: "";
+  width: 82px;
+  height: 82px;
+  background: url(image/OK.png) no-repeat center top;
+  position: absolute;
+  left: 0;
+}
+
+.cart-services-book::before {
+  content: "";
+  width: 82px;
+  height: 82px;
+  background: url(image/BOOK_2.png) no-repeat center top;
+  position: absolute;
+  left: 0;
+}
+
+.cart-services-home::before {
+  content: "";
+  width: 82px;
+  height: 82px;
+  background: url(image/HOME.png) no-repeat center top;
+  position: absolute;
+  left: 0;
+}
+
+.cart-services-image::before {
+  content: "";
+  width: 82px;
+  height: 82px;
+  background: url(image/IMAGE.png) no-repeat center top;
+  position: absolute;
+  left: 0;
+}
+
 .cart {
   padding-top: 80px;
 }
@@ -102,6 +157,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: 30px;
 }
 
 .cart-services {
@@ -126,12 +182,13 @@ html {
   font-family: "Roboto";
   color: #999999;
   line-height: 24px;
+  margin-bottom: 50px;
 }
 
 /* Section Team */
 
 .section-team {
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 80px;
 }
 
