@@ -14,33 +14,33 @@ html {
 }
 
 @font-face {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-style: normal;
-  src: url(../fonts/montserrat/Montserrat-Bold.woff) format("woff");
+  src: url(/fonts/montserrat/Montserrat-Bold.woff) format("woff");
 }
 
 @font-face {
   font-family: "Montserrat";
   font-weight: normal;
   font-style: normal;
-  src: url(../fonts/montserrat/Montserrat-Regular.woff) format("woff");
+  src: url(/fonts/montserrat/Montserrat-Regular.woff) format("woff");
 }
 
 @font-face {
   font-family: "Droid Serif", serif;
   font-weight: 400;
   font-style: italic;
-  src: url(../fonts/droidserif/droidserifitalic.woff2) format("woff2"),
-    url(../fonts/droidserif/droidserifbolditalic.woff) format("woff");
+  src: url(/fonts/droidserif/droidserifitalic.woff2) format("woff2"),
+    url(/fonts/droidserif/droidserifbolditalic.woff) format("woff");
 }
 
 @font-face {
   font-family: "Roboto Slab";
   font-weight: 400;
   font-style: normal;
-  src: url(../fonts/robotoslab/robotoslabregular.woff2) format("woff2"),
-    url(../fonts/robotoslab/robotoslabregular.woff) format("woff");
+  src: url(/fonts/robotoslab/robotoslabregular.woff2) format("woff2"),
+    url(/fonts/robotoslab/robotoslabregular.woff) format("woff");
 }
 
 .container {
@@ -69,7 +69,7 @@ html {
 .nav-menu-link {
   text-decoration: none;
   font-size: 14px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   color: #222222;
   font-weight: bold;
@@ -91,7 +91,7 @@ html {
 
 .section-name {
   font-size: 40px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   color: #222222;
   font-weight: 700;
@@ -121,7 +121,7 @@ html {
 
 .card-services-box-title {
   font-size: 18px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   text-align: center;
   font-weight: 700;
@@ -155,7 +155,7 @@ html {
 .form-title {
   font-size: 40px;
   font-weight: 700;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
@@ -189,7 +189,7 @@ html {
   border: 1px solid #cccccc;
   border-radius: 2px;
   text-transform: uppercase;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: -0.35px;
@@ -226,7 +226,7 @@ html {
   border: 1px solid #cccccc;
   border-radius: 5px;
   text-transform: uppercase;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: -0.35px;
