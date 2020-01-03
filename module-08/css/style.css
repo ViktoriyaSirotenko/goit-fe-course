@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.container {
+  min-width: 320px;
+  /* max-width: 940px; */
+  margin: 0 auto;
+}
+
+.page-header {
+  background-image: url(./image/Slider-foto.png);
+  background-repeat: no-repeat;
+  /* background-color: #1a1915; */
+  background-size: cover;
+  background-position: center;
+  /* padding-bottom: 130px; */
+}
+
+.name {
+  padding: 0 20px;
+}
+
+/* Site navigation */
+
+.site-name {
+  /* color: #ffffff; */
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.site-menu {
+  /* color: #ffffff; */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.nav-logo {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-button {
+  width: 90px;
+  height: 36px;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  background: transparent;
+  cursor: pointer;
+  /* color: #ffffff; */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Header */
+
+.header-title {
+  /* color: #ffffff; */
+  font-family: Montserrat;
+  font-size: 52px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header-item {
+  /* color: #ffffff; */
+  font-family: Roboto;
+  font-size: 24px;
+}
+
+.header-button {
+  width: 225px;
+  height: 40px;
+  background-color: #ff4e50;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Section Cards */
+
+/* .card {
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .card-box {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 200px;
+} */
+
+.section-name {
+  color: #333333;
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card-title {
+  color: #333333;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.card-item {
+  color: #666666;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.section-button {
+  width: 192px;
+  height: 40px;
+  border: 2px solid #ff4e50;
+  border-radius: 50px;
+  color: #ff4e50;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  background-color: #ffffff;
+  cursor: pointer;
+}
