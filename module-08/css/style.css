@@ -52,6 +52,8 @@ body {
 }
 
 .site-logo {
+  position: relative;
+  transform: translateY(-40%);
   text-align: center;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
@@ -68,9 +70,10 @@ body {
 
 .nav-box {
   padding-top: 30px;
-} 
+}
 
-.site-menu {
+.site-menu,
+.nav-button {
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
@@ -79,21 +82,14 @@ body {
   line-height: 35px;
   padding: 10px 20px;
   box-sizing: border-box;
-  /* transition: all .3s linear */
+  cursor: pointer;
+  margin-right: 10px;
 }
 
-.nav-button {
-  width: 90px;
-  height: 36px;
+.site-menu:hover,
+.nav-button:hover {
   border: 2px solid #ffffff;
   border-radius: 50px;
-  background: transparent;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  text-decoration: none;
 }
 
 .header-title {
@@ -131,6 +127,13 @@ body {
   margin: auto;
 }
 
+.header-button:hover {
+  border: 2px solid #ff4e50;
+  background-color: #ffffff;
+  border-radius: 50px;
+  color: #ff4e50;
+}
+
 /* Section Cards */
 
 .section-name {
@@ -144,7 +147,6 @@ body {
 }
 
 .card-box {
-  /* max-width: 230px; */
   margin: 0 auto;
   margin-bottom: 30px;
   display: inline-block;
@@ -237,4 +239,9 @@ body {
   cursor: pointer;
   margin: auto;
   margin-bottom: 60px;
+}
+
+.section-button:hover {
+  background-color: #ff4e50;
+  color: #ffffff;
 }

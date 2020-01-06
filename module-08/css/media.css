@@ -69,9 +69,26 @@
     width: 236px;
     padding: 0 14px;
   }
+
+  .card1 {
+    order: 1;
+  }
+
+  .card2 {
+    order: 3;
+  }
+
+  .card3 {
+    order: 2;
+  }
+
+  .card4 {
+    order: 4;
+  }
+
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 767px) {
   .nav-box {
     padding-top: 20px;
     margin-bottom: 114px;
