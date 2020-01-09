@@ -1,37 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-body {
-  margin: 0;
-}
-
 /* Header */
-
-/* .container {
-  width: 100%;
-  min-height: 540px;
-  padding: 0 15px;
-  margin: auto;
-} */
+img {
+  display: block;
+}
 
 .page-header {
-  padding-right: 15px;
-  padding-left: 15px;
-  min-height: 540px;
-  width: 100%;
-  margin: auto;
   background-image: url(../image/Slider-foto.png);
   background-repeat: no-repeat;
   background-color: #1a1915;
@@ -39,86 +11,35 @@ body {
   background-position: center;
 }
 
-.name {
-  margin: 0 auto;
-}
-
-.site-navigation {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.site-logo {
-  background-image: url(../image/URLAUBSGLÜCK.png);
-  position: relative;
-  transform: translateY(-40%);
-  text-align: center;
-  color: #ffffff;
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 120px;
-  margin-bottom: 20px;
-}
-
-.nav-logo {
-  text-decoration: none;
-}
-
-.nav-box {
-  padding-top: 30px;
-}
-
-.site-menu,
-.nav-button {
+.header-link {
+  border: 2px solid transparent;
+  padding: 10px 20px;
+  background: none;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 700;
-  text-decoration: none;
-  line-height: 35px;
-  padding: 10px 20px;
-  box-sizing: border-box;
   cursor: pointer;
-  margin-right: 10px;
+  margin-bottom: 115px;
 }
 
-.site-menu:hover,
-.nav-button:hover {
+.header-link:hover {
   border: 2px solid #ffffff;
   border-radius: 50px;
 }
 
 .header-title {
-  color: #ffffff;
   font-family: "Montserrat", sans-serif;
-  font-size: 26px;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 20px;
+  font-size: 30px;
 }
 
 .header-item {
-  margin: auto;
-  color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
-  font-weight: 300;
-  line-height: 20px;
-  text-align: center;
-  margin-bottom: 20px;
-  width: 80%;
+  width: 216px;
 }
 
 .header-button {
-  width: 280px;
-  height: 40px;
   background-color: #ff4e50;
   color: #ffffff;
   font-size: 14px;
@@ -127,7 +48,9 @@ body {
   border-radius: 50px;
   border: none;
   cursor: pointer;
-  margin: auto;
+  padding: 10px 50px;
+  margin-bottom: 138px;
+  transition: all 250ms linear;
 }
 
 .header-button:hover {
@@ -140,24 +63,8 @@ body {
 /* Section Cards */
 
 .section-name {
-  margin-top: 30px;
-  color: #333333;
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.card-box {
-  margin: 0 auto;
-  margin-bottom: 30px;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.partner-card {
-  text-decoration: none;
 }
 
 .partner-img {
@@ -215,23 +122,15 @@ body {
   color: #333333;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 20px;
 }
 
 .card-item {
   color: #666666;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  font-weight: 300;
-  text-align: center;
 }
 
 .section-button {
-  display: block;
-  width: 280px;
-  height: 40px;
   border: 2px solid #ff4e50;
   border-radius: 50px;
   color: #ff4e50;
@@ -240,11 +139,11 @@ body {
   font-weight: 700;
   background-color: #ffffff;
   cursor: pointer;
-  margin: auto;
-  margin-bottom: 60px;
+  padding: 10px 75px;
 }
 
 .section-button:hover {
   background-color: #ff4e50;
   color: #ffffff;
+  transition: all 250ms linear;
 }
