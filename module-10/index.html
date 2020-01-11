@@ -8,7 +8,7 @@
       href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto:300i,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="CSS/normolize.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/style.css" />
     <title>Homework-10</title>
   </head>
@@ -29,11 +29,15 @@
           <li><a class="menu-link" href="#">Work</a></li>
           <li><a class="menu-link" href="#">Blog</a></li>
           <li><a class="menu-link" href="#">Contact</a></li>
-          <li><a class="menu-link" href="#">
-            <img src="image/SHOPPING_CART.png" alt="">
+          <li><a class="menu-link-icon" href="#">
+            <svg class="menu__link--icon">
+              <use href="./image/SHOPPING_CART.svg#icon-cart"></use>
+            </svg>
+          </a>
+            <!-- <img src="image/SHOPPING_CART.png" alt=""> -->
           </a></li>
           <li><a class="menu-link" href="#">
-            <img src="image/Poisk.png" alt="">
+            <img src="image/MAGNIFYING GLASS.svg" alt="">
           </a></li>
         </ul>
       </nav>
@@ -130,7 +134,10 @@
                     <ul class="cart-team-link">
                       <li class="cart-team-icon">
                         <a href="#" class="link-social">
-                          <img src="image/facebook.png" alt="facebook-icon" />
+                          <svg class="link__social--icon">
+                            <use href="image/sprite.svg#icon-facebook"></use>
+                          </svg>
+                          <!-- <img src="image/sprite.svg" alt="facebook-icon" /> -->
                         </a>
                       </li>
                       <li class="cart-team-icon">
