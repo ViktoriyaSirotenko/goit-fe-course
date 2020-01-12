@@ -17,34 +17,38 @@
     <!-- HEADER -->
     <header class="page-header">
       <div class="banner">
-       <div class="overlay">
+       <div class="banner__overlay">
     <div class="container">
       <nav class="site-navigation">
         <a href="#">
           <img class="site-logo" src="image/MoGo.png" alt="site-logo">
         </a>
         <ul class="nav-menu">
-          <li><a class="menu-link" href="#">About</a></li>
-          <li><a class="menu-link" href="#">Service</a></li>
-          <li><a class="menu-link" href="#">Work</a></li>
-          <li><a class="menu-link" href="#">Blog</a></li>
-          <li><a class="menu-link" href="#">Contact</a></li>
-          <li><a class="menu-link-icon" href="#">
-            <svg class="menu__link--icon">
-              <use href="./image/SHOPPING_CART.svg#icon-cart"></use>
-            </svg>
-          </a>
-            <!-- <img src="image/SHOPPING_CART.png" alt=""> -->
-          </a></li>
-          <li><a class="menu-link" href="#">
-            <img src="image/MAGNIFYING GLASS.svg" alt="">
-          </a></li>
+          <li><a class="link menu-link" href="#">About</a></li>
+          <li><a class="link menu-link" href="#">Service</a></li>
+          <li><a class="link menu-link" href="#">Work</a></li>
+          <li><a class="link menu-link" href="#">Blog</a></li>
+          <li><a class="link menu-link" href="#">Contact</a></li>
+          <li>
+            <a class="link menu-link-icon" href="#">
+             <svg class="menu__link--icon">
+              <use href="image/sprite.svg#icon-cart"></use>
+             </svg>
+            </a>
+          </li>
+          <li>
+            <a class="link menu-link-icon" href="#">
+             <svg class="menu__link--icon">
+              <use href="image/sprite.svg#icon-search"></use>
+             </svg>
+            </a>
+          </li>
         </ul>
       </nav>
 
         <div class="header-content">
-          <h2 class="header-item">Creative Template</h2>
-          <h1 class="header-title">Welcome to MoGo</h1>
+          <h2 class="header-content__item">Creative Template</h2>
+          <h1 class="header-content__title">Welcome to MoGo</h1>
           <button class="header-button">Learn more</button>
         </div>
     </div>
@@ -54,13 +58,13 @@
 
 <!-- Section Services -->
       <div class="cart container">
-        <p class="section-title">We work with</p>
-        <h3 class="section-name">Amazing services</h3>
+        <p class="cart__title">We work with</p>
+        <h3 class="cart__name">Amazing services</h3>
 
         <div class="cart-box">
           <div class="cart-services cart-services-alarm">
-              <p class="cart-title">Photography</p>
-              <p class="cart-text">
+              <p class="cart-box__item">Photography</p>
+              <p class="cart-box__text">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Repudiandae quod molestias numquam?
               </p>
@@ -68,40 +72,40 @@
           
 
           <div class="cart-services cart-services-design">
-            <p class="cart-title">Web design</p>
-            <p class="cart-text">
+            <p class="cart-box__item">Web design</p>
+            <p class="cart-box__text">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Repudiandae quod molestias numquam?
             </p>
           </div>
 
           <div class="cart-services cart-services-ok">
-            <p class="cart-title">Creativity</p>
-            <p class="cart-text">
+            <p class="cart-box__item">Creativity</p>
+            <p class="cart-box__text">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Repudiandae quod molestias numquam?
             </p>
           </div>
 
           <div class="cart-services cart-services-book">
-            <p class="cart-title">SEO</p>
-            <p class="cart-text">
+            <p class="cart-box__item">SEO</p>
+            <p class="cart-box__text">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Repudiandae quod molestias numquam?
             </p>
           </div>
 
           <div class="cart-services cart-services-home">
-            <p class="cart-title">CSS/HTML</p>
-            <p class="cart-text">
+            <p class="cart-box__item">CSS/HTML</p>
+            <p class="cart-box__text">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Repudiandae quod molestias numquam?
             </p>
           </div>
 
           <div class="cart-services cart-services-image">
-            <p class="cart-title">Digital</p>
-            <p class="cart-text">
+            <p class="cart-box__item">Digital</p>
+            <p class="cart-box__text">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Repudiandae quod molestias numquam?
             </p>
@@ -111,9 +115,9 @@
 
         <!-- Section Team -->
         <div class="section-team container">
-          <p class="section-title">Who we are</p>
-          <p class="section-name">Meet our team</p>
-          <p class="team-text">
+          <p class="cart__title">Who we are</p>
+          <p class="cart__name">Meet our team</p>
+          <p class="section-team__text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
             sit delectus sint obcaecati officiis. Esse cumque eos placeat aut
             adipisci sit unde delectus exercitationem provident maiores natus
@@ -121,7 +125,7 @@
           </p>
 
           <div class="cart-section">
-            <div class="cart-team">
+            <div class="cart-section__team">
               <div class="cart-team-bg">
                 <div class="cart-team-img">
                   <img srcset="image/Matthew.png 380w, image/Matthew@2x.png 760w" 
@@ -137,22 +141,27 @@
                           <svg class="link__social--icon">
                             <use href="image/sprite.svg#icon-facebook"></use>
                           </svg>
-                          <!-- <img src="image/sprite.svg" alt="facebook-icon" /> -->
                         </a>
                       </li>
                       <li class="cart-team-icon">
                         <a href="#" class="link-social">
-                          <img src="image/twitter.png" alt="twitter-icon" />
+                          <svg class="link__social--icon">
+                            <use href="image/sprite.svg#icon-twitter"></use>
+                          </svg>
                         </a>
                       </li>
                       <li class="cart-team-icon">
                         <a href="#" class="link-social">
-                          <img src="image/pinterest.png" alt="pinterest-icon" />
+                          <svg class="link__social--icon">
+                            <use href="image/sprite.svg#icon-pinterest2"></use>
+                          </svg>
                         </a>
                       </li>
                       <li class="cart-team-icon">
                         <a href="#" class="link-social">
-                          <img src="image/instagram.png" alt="instagram-icon" />
+                          <svg class="link__social--icon">
+                            <use href="image/sprite.svg#icon-instagram"></use>
+                          </svg>
                         </a>
                       </li>
                     </ul>
@@ -163,7 +172,7 @@
               <p class="cart-team-position">Graphic Design</p>
             </div>
 
-            <div class="cart-team">
+            <div class="cart-section__team">
               <div class="cart-team-bg">
                 <div class="cart-team-img">
                   <img srcset="image/Christopher.png 380w, image/Christopher@2x.png 760w" 
@@ -176,22 +185,30 @@
                     <ul class="cart-team-link">
                       <li class="cart-team-icon">
                         <a href="#" class="link-social">
-                          <img src="image/facebook.png" alt="facebook-icon" />
+                          <svg class="link__social--icon">
+                            <use href="image/sprite.svg#icon-facebook"></use>
+                          </svg>
                         </a>
                       </li>
                       <li class="cart-team-icon">
                         <a href="#" class="link-social">
-                          <img src="image/twitter.png" alt="twitter-icon" />
+                          <svg class="link__social--icon">
+                            <use href="image/sprite.svg#icon-twitter"></use>
+                          </svg>
                         </a>
                       </li>
                       <li class="cart-team-icon">
                         <a href="#" class="link-social">
-                          <img src="image/pinterest.png" alt="pinterest-icon" />
+                          <svg class="link__social--icon">
+                            <use href="image/sprite.svg#icon-pinterest2"></use>
+                          </svg>
                         </a>
                       </li>
                       <li class="cart-team-icon">
                         <a href="#" class="link-social">
-                          <img src="image/instagram.png" alt="instagram-icon" />
+                          <svg class="link__social--icon">
+                            <use href="image/sprite.svg#icon-instagram"></use>
+                          </svg>
                         </a>
                       </li>
                     </ul>
@@ -202,7 +219,7 @@
               <p class="cart-team-position">Branding/UX design</p>
             </div>
 
-            <div class="cart-team">
+            <div class="cart-section__team">
               <div class="cart-team-bg">
                 <div class="cart-team-img">
                   <img srcset="image/Michael.png 380w, image/Michael@2x.png 760w" 
@@ -215,22 +232,30 @@
                     <ul class="cart-team-link">
                       <li class="cart-team-icon">
                         <a href="#" class="link-social">
-                          <img src="image/facebook.png" alt="facebook-icon" />
+                          <svg class="link__social--icon">
+                            <use href="image/sprite.svg#icon-facebook"></use>
+                          </svg>
                         </a>
                       </li>
                       <li class="cart-team-icon">
                         <a href="#" class="link-social">
-                          <img src="image/twitter.png" alt="twitter-icon" />
+                          <svg class="link__social--icon">
+                            <use href="image/sprite.svg#icon-twitter"></use>
+                          </svg>
                         </a>
                       </li>
                       <li class="cart-team-icon">
                         <a href="#" class="link-social">
-                          <img src="image/pinterest.png" alt="pinterest-icon" />
+                          <svg class="link__social--icon">
+                            <use href="image/sprite.svg#icon-pinterest2"></use>
+                          </svg>
                         </a>
                       </li>
                       <li class="cart-team-icon">
                         <a href="#" class="link-social">
-                          <img src="image/instagram.png" alt="instagram-icon" />
+                          <svg class="link__social--icon">
+                            <use href="image/sprite.svg#icon-instagram"></use>
+                          </svg>
                         </a>
                       </li>
                     </ul>
